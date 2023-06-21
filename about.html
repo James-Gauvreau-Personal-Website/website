@@ -2,6 +2,31 @@
     <head>
         <title>Gauvreau: Home</title>
         <link rel="stylesheet" href="style.css">
+        <style>
+            * {
+                box-sizing: border-box;
+            }
+
+            .column {
+                float: left;
+                padding: 15px;
+                text-align:justify;
+            }
+            
+            .clearfix::after {
+                content: "";
+                clear: both;
+                display: table;
+            }
+
+            .text {
+                width:50%
+            }
+
+            .logo {
+                width:25%
+            }
+        </style>
     </head>
     <body>
         <div>
@@ -11,6 +36,19 @@
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./index.html">Home</a></li>
             </ul>
+        </div>
+        <br>
+        <div class="clearfix">
+            <div class="column text">
+                <p style="text-align: left;">I write both fiction and nonfiction, including a guide to comparative mythology. Learning to code is something that began by accident, but I've kept it up because I like to build things. 
+            </div>
+            <div class="column image">
+                <figure>
+                    <img src="https://wmbsaltworks.neocities.org/saltlogo_tight.png">
+                    <figcaption style="width:50%">This is the logo that I use for my books and other projects.</figcaption>
+                </figure>
+            </div>
+          
         </div>
     </body>
 </html>

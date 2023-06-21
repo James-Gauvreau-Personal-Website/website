@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000001;
+  }
+  
+li h1 {
+    float: left;
+    color:white;
+    padding: 0px 15px;
+}
+
+li a {
+    float: right;
+  }
+  
+  li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 33px 15px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: yellow;
+  }
+
+  #spider {
+    float: right;
+  }

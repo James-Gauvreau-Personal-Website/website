@@ -6,28 +6,50 @@ ul {
     background-color: #000001;
   }
   
-li h1 {
-    float: left;
-    color:white;
-    padding: 0px 15px;
-}
-
-li a {
-    float: right;
-  }
-  
-  li a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 33px 15px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    color: yellow;
-  }
-
   #spider {
     float: right;
+  }
+
+  .headboard {
+    flex-direction: row;
+    background-color: black;
+    color: white;
+  }
+
+  .horizon-align {
+    margin-left: 5h;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3vh 0 3vh;
+  }
+
+  .headboard a {
+    color:white;
+    margin: 5px;
+  }
+
+  .headboard a:hover {
+    color:yellow;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .form-stack {
+    width: 40%;
+  }
+
+  .form-solo {
+    width: 75%;
+  }
+
+  label {
+    margin: 5px;
+  }
+
+  input {
+    margin: 5px;
   }

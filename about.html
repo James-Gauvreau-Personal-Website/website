@@ -7,12 +7,6 @@
                 box-sizing: border-box;
             }
 
-            .column {
-                float: left;
-                padding: 15px;
-                text-align:justify;
-            }
-            
             .clearfix::after {
                 content: "";
                 clear: both;
@@ -29,13 +23,18 @@
         </style>
     </head>
     <body>
-        <div>
-            <ul>
-                <li><h1>About Me</h1>
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./index.html">Home</a></li>
-            </ul>
+        <div class="headboard">
+            <div class="horizon-align">
+                <div class="column">
+                    <h1>About</h1>
+                </div>
+                <div class="column">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./portfolio.html">Portfolio</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </div>
         </div>
         <br>
         <div class="clearfix">

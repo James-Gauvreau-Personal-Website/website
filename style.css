@@ -1,3 +1,10 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blueviolet;
+    color: seashell;
+  }
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -52,4 +59,37 @@ ul {
 
   input {
     margin: 5px;
+  }
+
+  .shape-box {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .circle {
+    height: 25px;
+    width: 25px;
+    margin: 2vh;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  .square {
+    height: 0.5cm;
+    width: 0.5cm;
+    margin: 2vh;
+    display: inline-block;
+  }
+
+  .blue {
+    background-color: lightblue;
+  }
+
+  .dblue {
+    background-color: darkblue;
+    opacity: 50%;
+  }
+
+  a:nth-child(2n){
+    color: red;
   }
